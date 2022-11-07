@@ -2,16 +2,21 @@
 body 
 {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 
 }
-*
-{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior:smooth;
 }
 /* styling home page */
+.content{
+    display: flex;
+    flex-direction: column;
+}
 .navbar ul{
     list-style: none;
     display: flex;
@@ -31,25 +36,103 @@ body
     text-decoration: none;
     color: white;
 }
-.content{
-    display: flex;
-}
+
 .silde_home{
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 5rem;
+    position: relative;
     display: flex;
     background-image: url(../image/illustartion/home_slide.png);
     background-repeat: no-repeat;
-    width: 90%;
-    height: 556px;
-    left: 5%;
-    position: relative;
-    top: 5rem;
-    flex-direction: column;
-    /* Justify-content: center; */
-
 }
 .silde_home h3{
     font-size: 1.5rem;
     color: #ffffff;
     text-align:center;
     margin-top: 25rem;
+}
+.content h1{
+text-align: center;
+font-size: 4rem;
+gap: 3rem;
+}
+
+
+.container{
+     display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5rem;
+}
+.news{
+    display: flex;
+    text-align: center;
+}
+.img-news{
+    text-align: center;
+    width: 80%;
+}
+
+footer{ 
+    text-align: center;
+    justify-content: center;
+    position: flex;
+    width:100%;
+    background: #727272;
+    height: fit-content;
+}
+
+/* style footer */
+.footer {
+    position: flex;
+    background: #CBD2D0;
+    display: flex;
+    align-items: center;
+    height: 154px;
+}
+footer{ 
+    text-align: center;
+    justify-content: center;
+    position: flex;
+    width:100%;
+    background: #CBD2D0;
+    height: fit-content;
+
+
+
+}
+.social-media{
+    justify-content:center;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+}
+footer p {font-family: 'Tajawal';
+    justify-content: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-logo {
+    width: 50px;
+}
+
+.footer-logo img {
+    width: 30px;
+}
+.footer-logo:first-child img {
+    width: 17px;
+}
+
+footer p a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
 }

@@ -131,7 +131,7 @@ gap: 3rem;
     cursor: pointer;
 }
 
-.news1:hover p{
+.news1 img :hover p{
     width: 80%;
     text-align: center;
     ;

@@ -32,20 +32,24 @@
         <div class="news">
             
                 <div class="container" >   
-                    <div>
+                    <div class="news1">
                         <img src="assets/image/illustartion/news.png" alt="new 1" class="img-news">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus eos esse mollitia quaerat dicta, suscipit repellendus neque reprehenderit porro aut minima atque consequatur asperiores aliquid reiciendis, sit necessitatibus? Sint?</p>
                         <h3>Lorem ipsum</h3>
                     </div>
-                    <div>
+                    <div   class="news1">
                         <img src="assets/image/illustartion/news1.png" alt="new 2" class="img-news">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus eos esse mollitia quaerat dicta, suscipit repellendus neque reprehenderit porro aut minima atque consequatur asperiores aliquid reiciendis, sit necessitatibus? Sint?</p>
                         <h3>Lorem ipsum</h3>
-                    </div>
-                    <div>
+                    </div >
+                    <div class="news1">
                         <img src="assets/image/illustartion/news.png" alt="new 3" class="img-news">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus eos esse mollitia quaerat dicta, suscipit repellendus neque reprehenderit porro aut minima atque consequatur asperiores aliquid reiciendis, sit necessitatibus? Sint?</p>
                         <h3>Lorem ipsum</h3>
-                    </div>
-                    <div>
+                    </div  >
+                    <div  class="news1">
                         <img src="assets/image/illustartion/news4.png" alt="new 4" class="img-news">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus eos esse mollitia quaerat dicta, suscipit repellendus neque reprehenderit porro aut minima atque consequatur asperiores aliquid reiciendis, sit necessitatibus? Sint?</p>
                         <h3>Lorem ipsum</h3>
                     </div>
                 </div>

@@ -103,15 +103,19 @@ gap: 3rem;
     background-repeat: no-repeat;
     gap: 3rem;
 }
+.news1{
+    display: grid;
+    justify-content: center;
+}
 .news1 img{
     z-index: 1;
      position: relative; 
     margin-right: 10px;
    }
 .news1 p{
-    position: absolute;
+    /* position: absolute; */
     z-index: 5;
-    bottom: 0;
+    bottom: -10rem;
     right: 0;
     background:rgb(228, 190, 23);
     color: white;
@@ -121,13 +125,16 @@ gap: 3rem;
     visibility: hidden;
     -webkit-transition: visibility 0s, opacity 0.5s linear; 
     transition: visibility 0s, opacity 0.5s linear;
+    gap: 5rem;
    }
 .news1 img{
     cursor: pointer;
 }
 
-   .news1:hover p{
-   
+.news1:hover p{
+    width: 80%;
+    text-align: center;
+    ;
     /* padding: 8px 15px; */
     visibility: visible;
     opacity: 0.7; 

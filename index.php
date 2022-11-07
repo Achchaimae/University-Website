@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    Document</title>
+   </title>
 </head>
 <body>
     <main>
@@ -29,7 +29,7 @@
                 <br><br> ― Pelé, Brazillian pro footballer</h3>
         </div>
         <h1>News</h1><br><br><br>
-      <div class="news">
+        <div class="news">
             
                 <div class="container" >   
                     <div>
@@ -49,6 +49,24 @@
                         <h3>Lorem ipsum</h3>
                     </div>
                 </div>
+        </div>
+
+        <div>
+            <h1>Events</h1>
+        </div>
+        <div class="Events">
+                    <div class="Events_title"><h2> Coming Soon</h2></div>
+                    <div class="coming_soon">
+                        <img src="assets/image/illustartion/news.png" alt="new 1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.</p>
+                    </div>
+                    <div class="Events_title"><h2> Last_events</h2></div>
+                    <div class="last_events">
+                        <img src="assets/image/illustartion/news.png" alt="new 1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam alias adipisci accusamus natus esse omnis, voluptas, id incidunt, nobis amet quis vel temporibus doloribus suscipit perspiciatis optio totam nemo.</p>
+                    </div>
+                    
+                
         </div>
     </section>
     <section class="footer">

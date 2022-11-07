@@ -72,21 +72,40 @@ gap: 3rem;
     display: flex;
     text-align: center;
 }
+
 .img-news{
     text-align: center;
     width: 80%;
 }
-
-footer{ 
+.Events{
     text-align: center;
-    justify-content: center;
-    position: flex;
-    width:100%;
-    background: #727272;
-    height: fit-content;
+    gap: 2rem;
+}
+
+.Events_title{  
+    text-align: left;
+    font-size: 1rem;
+    /* position: absolute; */
+    width: 70%; 
+    height: 2.5rem;
+    left: 0px;
+    background-color: #F0E100;
+    border-radius: 0px 90px 10px 0px;
+
+}
+.coming_soon,.last_events{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 10rem;
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    gap: 3rem;
 }
 
 /* style footer */
+
 .footer {
     position: flex;
     background: #CBD2D0;

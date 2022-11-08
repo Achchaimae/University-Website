@@ -1,4 +1,3 @@
-
 body 
 {
     box-sizing: border-box;
@@ -44,7 +43,6 @@ body
     justify-items: center;
     margin: 5rem;
     position: relative;
-    display: flex;
     background-image: url(../image/illustartion/home_slide.png);
     background-repeat: no-repeat;
 }
@@ -60,23 +58,48 @@ font-size: 4rem;
 gap: 3rem;
 }
 
-
-.container{
-     display: grid;
+.news_container h2{
+    text-align: center;
+   
+}
+.news{
+    display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 5rem;
+    row-gap: 2rem;
+} 
+.new{
+    background-size: cover;
+    margin: 5rem;
+    background-repeat: no-repeat;
+    height: 20rem;
 }
-.news{
-    display: flex;
-    text-align: center;
+#new1{
+   
+    background-image: url(../image/illustartion/news.png);
 }
+#new2{
+    background-image: url(../image/illustartion/news1.png);
+}
+#new3{
+    background-image: url(../image/illustartion/news2.png);
+}
+#new4{
+    background-image: url(../image/illustartion/news4.png);
+}
+.new p{
+    margin-bottom:0 ;
+     display: none;
+     text-align:center;
+     font-size: medium;
+     color: white;
+    background-color: #F0E100;
+    }
+.new:hover p{
+     display: block; 
+    }
 
-.img-news{
-    text-align: center;
-    width: 80%;
-}
 .Events{
     text-align: center;
     gap: 2rem;
@@ -103,43 +126,34 @@ gap: 3rem;
     background-repeat: no-repeat;
     gap: 3rem;
 }
-.news1{
-    display: grid;
-    justify-content: center;
+
+
+/* style about page */
+.univ_outside{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 5rem;
+    position: relative;
+    background-repeat: no-repeat;
 }
-.news1 img{
-    z-index: 1;
-     position: relative; 
-    margin-right: 10px;
-   }
-.news1 p{
-    /* position: absolute; */
-    z-index: 5;
-    bottom: -10rem;
-    right: 0;
-    background:rgb(228, 190, 23);
-    color: white;
-    /* margin-bottom: 5px; */
-    font-family: sans-serif;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear; 
-    transition: visibility 0s, opacity 0.5s linear;
+.staffs{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
     gap: 5rem;
-   }
-.news1 img{
-    cursor: pointer;
+    position: relative;
+    background-repeat: no-repeat;
 }
 
-.news1 img :hover p{
-    width: 80%;
-    text-align: center;
-    ;
-    /* padding: 8px 15px; */
-    visibility: visible;
-    opacity: 0.7; 
-   }
+.staff{
+   width: 12rem;
+}
+.staff_container{
    
+  text-align: center;
+  
+}
 /* style footer */
 
 .footer {

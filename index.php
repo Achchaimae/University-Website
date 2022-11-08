@@ -10,17 +10,14 @@
 <body>
     <main>
     <section class="navbar">
-    
         <ul>
-            <li><a href="#">Home</a></li>
-            
-            <li><a href="#">About</a></li>
-            <li><a href="#">Courses</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="assets/php/about.php">About</a></li>
             <li><img src="assets/image/logo.png" alt="logo" class="logo"></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="#">Courses</a></li>
             <li> <a href="#">Contact Us</a></li>
-            <li><img src="assets/image/Search_icon.png" alt="logo"></li>
-        </ul>
+             <li><img src="assets/image/Search_icon.png" alt="logo"></li>
+        </ul> 
     </section>
     <section class="content">
         <div class="silde_home">
@@ -30,31 +27,32 @@
         </div>
         <h1>News</h1><br><br><br>
         <div class="news">
-            
-                <div class="container" >   
-                    <div class="news1">
-                        <img src="assets/image/illustartion/news.png" alt="new 1" class="img-news">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus eos esse mollitia quaerat dicta, suscipit repellendus neque reprehenderit porro aut minima atque consequatur asperiores aliquid reiciendis, sit necessitatibus? Sint?</p>
-                        <h3>Lorem ipsum</h3>
-                    </div>
-                    <div   class="news1">
-                        <img src="assets/image/illustartion/news1.png" alt="new 2" class="img-news">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus eos esse mollitia quaerat dicta, suscipit repellendus neque reprehenderit porro aut minima atque consequatur asperiores aliquid reiciendis, sit necessitatibus? Sint?</p>
-                        <h3>Lorem ipsum</h3>
-                    </div >
-                    <div class="news1">
-                        <img src="assets/image/illustartion/news.png" alt="new 3" class="img-news">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus eos esse mollitia quaerat dicta, suscipit repellendus neque reprehenderit porro aut minima atque consequatur asperiores aliquid reiciendis, sit necessitatibus? Sint?</p>
-                        <h3>Lorem ipsum</h3>
-                    </div  >
-                    <div  class="news1">
-                        <img src="assets/image/illustartion/news4.png" alt="new 4" class="img-news">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus eos esse mollitia quaerat dicta, suscipit repellendus neque reprehenderit porro aut minima atque consequatur asperiores aliquid reiciendis, sit necessitatibus? Sint?</p>
-                        <h3>Lorem ipsum</h3>
-                    </div>
+            <div class="news_container">
+                <div class="new" id="new1">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, nihil iusto. Aperiam nobis suscipit numquam. Necessitatibus repellat, iure veritatis quis, inventore laudantium tempora vel magni quas, obcaecati recusandae saepe. Unde?</p>
                 </div>
-        </div>
-
+                <h2>lorem ipsum</h2>
+            </div>
+            <div class="news_container">
+                <div class="new"  id="new2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eum, dolores sunt eligendi dignissimos inventore esse incidunt vitae nostrum odit adipisci nesciunt fugiat dolorum quam cumque, omnis, libero nisi saepe!</p>
+                </div>
+                <h2>lorem ipsum</h2>
+            </div>
+            <div class="news_container">
+                <div class="new"  id="new3">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quam accusamus natus, debitis neque dolorem molestiae in facilis rerum molestias praesentium voluptas voluptatum amet error sapiente fugit illo sequi tempora.</p>
+                </div>
+                <h2>lorem ipsum</h2>
+            </div>
+            <div class="news_container">
+                <div class="new"  id="new4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore, officiis dolores minus possimus distinctio aliquid quam veritatis asperiores placeat neque earum aut rem molestiae accusamus repudiandae autem quibusdam rerum.</p>
+                </div>
+                <h2>lorem ipsum</h2>
+            </div>
+        </div>  
+              
         <div>
             <h1>Events</h1>
         </div>
@@ -75,7 +73,7 @@
     </section>
     <section class="footer">
     <footer>
-            <div class="social-media">
+         <div class="social-media">
                 <a href="#" class="footer-logo"><img src="assets/image/icon/fb.png" alt="facebook logo"></a>
                 <a href="#"class="footer-logo"><img src="assets/image/icon/ig.png" alt="instagram logo"></a>
                 <a href="#"class="footer-logo"><img src="assets/image/icon/in.png" alt="linkedin logo"></a>
@@ -86,7 +84,7 @@
                 <p class="copyright">
                     copyright. designed and developed by <a href="https://github.com/Achchaimae">Achchaimae Khalaf</a>
                 </p>
-    </footer>
+                </footer>
     </section>
     </main>
 </body>

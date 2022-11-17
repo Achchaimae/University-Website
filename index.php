@@ -15,18 +15,54 @@
             <li><a href="assets/php/about.php">About</a></li>
             <li><img src="assets/image/logo.png" alt="logo" class="logo"></li>
             <li><a href="#">Courses</a></li>
-            <li> <a href="#">Contact Us</a></li>
+            <li> <a href="assets/php/contact.php">Contact Us</a></li>
              <li><img src="assets/image/Search_icon.png" alt="logo"></li>
         </ul> 
     </section>
-    <section class="content">
+    <section>
         <div class="silde_home">
             <h3>“Success is no accident. It is hard work, perseverance, learning, studying,<br> sacrifice and most of all, love of what you are doing or learning to do.”
 
                 <br><br> ― Pelé, Brazillian pro footballer</h3>
         </div>
-        <h1>News</h1><br><br><br>
-        <div class="news">
+    </section>
+    <center><h1>News</h1></center><br><br><br>
+    <section class="galerie">
+        
+       
+        <div class="activite">
+                    <img src="assets/image/illustartion/news.png" alt="art">
+                    <div class="intro">
+                        <h3>Title</h3> 
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis neque soluta excepturi nihil quia hic asperiores veritatis libero ducimus eos optio doloribus recusandae</p>
+                    </div>
+                   
+                </div>
+                <div class="activite">
+                    <img src="assets/image/illustartion/news1.png" alt="art">
+                    <div class="intro">
+                        <h3>Title</h3> 
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis neque soluta excepturi nihil quia hic asperiores veritatis libero ducimus eos optio doloribus recusandae</p>
+                    </div>
+                   
+                </div>
+                <div class="activite">
+                    <img src="assets/image/illustartion/news2.png" alt="art">
+                    <div class="intro">
+                        <h3>Title</h3> 
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis neque soluta excepturi nihil quia hic asperiores veritatis libero ducimus eos optio doloribus recusandae</p>
+                    </div>
+                   
+                </div>
+                <div class="activite">
+                    <img src="assets/image/illustartion/news4.png" alt="art">
+                    <div class="intro">
+                        <h3>Title</h3> 
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis neque soluta excepturi nihil quia hic asperiores veritatis libero ducimus eos optio doloribus recusandae</p>
+                    </div>
+                   
+                </div>
+        <!-- <div class="news">
             <div class="news_container">
                 <div class="new" id="new1">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, nihil iusto. Aperiam nobis suscipit numquam. Necessitatibus repellat, iure veritatis quis, inventore laudantium tempora vel magni quas, obcaecati recusandae saepe. Unde?</p>
@@ -69,7 +105,7 @@
                     </div>
                     
                 
-        </div>
+        </div> -->
     </section>
     <section class="footer">
     <footer>

@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    
     <link rel="stylesheet" href="../css/style.css">
+   
     <title>Document</title>
 </head>
 <body>
@@ -66,7 +69,66 @@
     <center>
         <h1> What Our Students Say</h1>
     </center>
+    <div class="student_comment">
+        <h6>Testimonials from students</h6>
+        
+            <img src="../image/illustartion/student.png" alt="student">
+            <p>when the odds are against him and their dangers work to do. The Love Boat soon will be making 
+                another run. The Love Boat promises something for everyone</p>
+        
+    </div>
 
+    <!-- <div class="test">
+
+    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="student_comment">
+        <h6>Testimonials from students</h6>
+        
+            <img src="../image/illustartion/student.png" alt="student">
+            <p>when the odds are against him and their dangers work to do. The Love Boat soon will be making 
+                another run. The Love Boat promises something for everyone</p>
+        
+    </div>
+
+    </div>
+    <div class="carousel-item">
+    <div class="student_comment">
+        <h6>Testimonials from students</h6>
+        
+            <img src="../image/illustartion/student.png" alt="student">
+            <p>when the odds are against him and their dangers work to do. The Love Boat soon will be making 
+                another run. The Love Boat promises something for everyone</p>
+        
+    </div>
+
+    </div>
+    <div class="carousel-item">
+      <div class="student_comment">
+        <h6>Testimonials from students</h6>
+        
+            <img src="../image/illustartion/staff2.png" alt="student">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque ab velit sequi corporis quos soluta quia dolore id fugiat ipsum quis, dolor, excepturi mollitia? Assumenda perspiciatis enim deserunt quae.</p>
+        
+    </div>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+
+
+
+   
    
 
     </section>

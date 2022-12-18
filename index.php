@@ -14,8 +14,8 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="assets/php/about.php">About</a></li>
             <li><img src="assets/image/logo.png" alt="logo" class="logo"></li>
-            <li><a href="#">Courses</a></li>
-            <li> <a href="#">Contact Us</a></li>
+            <li><a href="assets/php/Courses.php">Courses</a></li>
+            <li> <a href="assets/php/ContactUs.php">Contact Us</a></li>
              <li><img src="assets/image/Search_icon.png" alt="logo"></li>
         </ul> 
     </section>

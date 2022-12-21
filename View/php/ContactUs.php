@@ -14,7 +14,7 @@
     <main>
         <section class="navbar">
             <ul>
-                <li><a href="../../index.php">Home</a></li>
+                <li><a href="../../home.php">Home</a></li>
 
                 <li><a href="about.php">About</a></li>
                 <li><img src="../image/logo.png" alt="logo" class="logo"></li>

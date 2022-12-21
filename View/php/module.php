@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +15,7 @@
     <main>
         <section class="navbar">
             <ul>
-                <li><a href="../../index.php">Home</a></li>
+                <li><a href="../../home.php">Home</a></li>
 
                 <li><a href="about.php">About</a></li>
                 <li><img src="../image/logo.png" alt="logo" class="logo"></li>
@@ -36,22 +37,22 @@
 
         </section>
         <section class="download">
-                <div class="pdfFile">
-                    <p>cour 1</p>
-                    <button>download</button>
-                </div>
-                <div class="pdfFile">
-                    <p>cour 2</p>
-                    <button>download</button>
-                </div>
-                <div class="pdfFile">
-                    <p>cour 3</p>
-                    <button>download</button>
-                </div>
-                <div class="pdfFile">
-                    <p>cour 4</p>
-                    <button>download</button>
-                </div>
+            <div class="pdfFile">
+                <p>cour 1</p>
+                <button>download</button>
+            </div>
+            <div class="pdfFile">
+                <p>cour 2</p>
+                <button>download</button>
+            </div>
+            <div class="pdfFile">
+                <p>cour 3</p>
+                <button>download</button>
+            </div>
+            <div class="pdfFile">
+                <p>cour 4</p>
+                <button>download</button>
+            </div>
         </section>
         <section class="footer space">
             <?php include 'footer.php'; ?>

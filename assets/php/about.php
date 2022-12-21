@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="../css/style.css">
    
-    <title>Document</title>
+    <title>About</title>
 </head>
 <body>
     <main>
@@ -18,9 +18,8 @@
             
             <li><a href="about.php">About</a></li>
             <li><img src="../image/logo.png" alt="logo" class="logo"></li>
-            <li><a href="#">Courses</a></li>
-            <!-- <li><a href="#">Events</a></li> -->
-            <li> <a href="#">Contact Us</a></li>
+            <li><a href="Courses.php">Courses</a></li>
+            <li> <a href="ContactUs.php">Contact Us</a></li>
             <li><img src="../image/Search_icon.png" alt="logo"></li>
     </ul>
     </section>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link bootstrap -->
     
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
    
     <title>About</title>
 </head>
@@ -14,7 +14,7 @@
     <main>
     <section class="navbar">
     <ul>
-            <li><a href="../../home.php">Home</a></li>
+            <li><a href="../home.php">Home</a></li>
             
             <li><a href="about.php">About</a></li>
             <li><img src="../image/logo.png" alt="logo" class="logo"></li>

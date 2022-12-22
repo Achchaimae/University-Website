@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/Contactstyle.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/Contactstyle.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <title>ContactUs</title>
 </head>
 
@@ -14,13 +15,13 @@
     <main>
         <section class="navbar">
             <ul>
-                <li><a href="../../home.php">Home</a></li>
+                <li><a href="../../index.php">Home</a></li>
 
                 <li><a href="about.php">About</a></li>
-                <li><img src="../image/logo.png" alt="logo" class="logo"></li>
+                <li><img src="../../assets/image/logo.png" alt="logo" class="logo"></li>
                 <li><a href="Courses.php">Courses</a></li>
                 <li> <a href="ContactUs.php">Contact Us</a></li>
-                <li><img src="../image/Search_icon.png" alt="logo"></li>
+                <li><a href="View/php/login.php"><span class="lnr lnr-user" style="color: white;"></a></span></li>
             </ul>
         </section>
         <section>
